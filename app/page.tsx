@@ -1,8 +1,10 @@
 import Gallery from "@/components/Gallery";
+import HeroSlides from "@/components/HeroSlides";
 import { photos } from "@/data/photos";
 
+const slides = [4, 23, 12, 31, 8, 36].map((i) => photos[i].src);
+
 export default function Home() {
-  const feature = photos[4];
   return (
     <>
       <section className="shero">
@@ -15,7 +17,7 @@ export default function Home() {
       </section>
 
       <div className="feature">
-        <img src={feature.src} alt="" />
+        <HeroSlides images={slides} />
       </div>
 
       <section className="wrap-s" id="work">

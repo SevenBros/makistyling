@@ -653,3 +653,7 @@ body { font-weight: 300; letter-spacing: -0.003em; }
 .scontact-title { font-size: clamp(26px, 4.4vw, 64px); }
 .shero-lede { letter-spacing: 0.04em; line-height: 1.8; }
 .shero-kicker { margin-bottom: 34px; }
+
+/* Feature slideshow */
+.feature { position: relative; }
+.feature .hero-slides img { animation: none; }

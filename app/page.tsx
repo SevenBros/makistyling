@@ -2,7 +2,14 @@ import Gallery from "@/components/Gallery";
 import HeroSlides from "@/components/HeroSlides";
 import { photos } from "@/data/photos";
 
-const slides = [4, 23, 12, 31, 8, 36].map((i) => photos[i].src);
+// Slideshow order & framing (object-position = which part stays in frame)
+const slides = [
+  { n: 78, pos: "50% 42%" }, // Jelly Job + cherry
+  { n: 67, pos: "50% 50%" }, // Buttermelt blush
+  { n: 37, pos: "50% 50%" }, // Jelly Job lips
+  { n: 38, pos: "50% 50%" }, // Body oil
+  { n: 5, pos: "22% 50%" }, // Chanel Gabrielle
+].map(({ n, pos }) => ({ src: photos[n - 1].src, pos }));
 
 export default function Home() {
   return (

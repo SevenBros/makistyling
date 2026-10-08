@@ -657,3 +657,14 @@ body { font-weight: 300; letter-spacing: -0.003em; }
 /* Feature slideshow */
 .feature { position: relative; }
 .feature .hero-slides img { animation: none; }
+
+/* Feature slideshow framing: square, centred, like a product plate */
+.feature {
+  width: min(760px, calc(100% - 2 * var(--gut)));
+  margin-left: auto;
+  margin-right: auto;
+  aspect-ratio: 1 / 1;
+}
+.feature .hero-slides img { transform: none; transition: opacity 1.4s ease; }
+.feature .hero-slides img.on { transform: none; }
+@media (max-width: 700px) { .feature { aspect-ratio: 1 / 1; } }

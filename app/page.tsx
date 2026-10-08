@@ -11,9 +11,6 @@ export default function Home() {
         <p className="shero-kicker">Maki Hayashi</p>
         <h1 className="shero-title">Product Styling</h1>
         <p className="shero-lede">Cosmetics, fragrance, skincare and lifestyle.</p>
-        <div className="shero-cta">
-          <a href="#work" className="btn-line">View work</a>
-        </div>
       </section>
 
       <div className="feature">

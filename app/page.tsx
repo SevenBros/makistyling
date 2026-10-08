@@ -1,40 +1,27 @@
 import Gallery from "@/components/Gallery";
 import { photos } from "@/data/photos";
 
-const strip = [12, 0, 32, 47, 18].map((i) => photos[i]);
-
 export default function Home() {
+  const feature = photos[4];
   return (
     <>
       <section className="shero">
-        <h1 className="shero-title">
-          Product
-          <br />
-          <em>Styling</em>
-        </h1>
-        <div className="shero-side">
-          <p className="shero-by">by Maki Hayashi</p>
-          <p className="shero-lede">
-            Product styling for cosmetics, fragrance, skincare and lifestyle brands.
-          </p>
-          <p className="shero-meta">
-            <span>{photos.length}</span> selected works
-          </p>
+        <p className="shero-kicker">Maki Hayashi</p>
+        <h1 className="shero-title">Product Styling</h1>
+        <p className="shero-lede">Cosmetics, fragrance, skincare and lifestyle.</p>
+        <div className="shero-cta">
+          <a href="#work" className="btn-line">View work</a>
         </div>
       </section>
 
-      <div className="strip" aria-hidden="true">
-        {strip.map((p) => (
-          <span key={p.src} className="strip-cell">
-            <img src={p.thumb} alt="" />
-          </span>
-        ))}
+      <div className="feature">
+        <img src={feature.src} alt="" />
       </div>
 
       <section className="wrap-s" id="work">
         <div className="sec-head">
-          <h2>Work</h2>
-          <span>Cosmetics · Fragrance · Skincare · Lifestyle</span>
+          <h2>Selected Work</h2>
+          <p>{photos.length} works</p>
         </div>
         <Gallery items={photos} label="Product Styling" uniform />
       </section>

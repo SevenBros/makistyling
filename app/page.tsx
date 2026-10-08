@@ -4,10 +4,10 @@ import { photos } from "@/data/photos";
 
 // Slideshow order & framing (object-position = which part stays in frame)
 const slides = [
+  { n: 38, pos: "50% 50%" }, // Body oil
   { n: 78, pos: "50% 42%" }, // Jelly Job + cherry
   { n: 67, pos: "50% 50%" }, // Buttermelt blush
   { n: 37, pos: "50% 50%" }, // Jelly Job lips
-  { n: 38, pos: "50% 50%" }, // Body oil
   { n: 5, pos: "22% 50%" }, // Chanel Gabrielle
 ].map(({ n, pos }) => ({ src: photos[n - 1].src, pos }));
 

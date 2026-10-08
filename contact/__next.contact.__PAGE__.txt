@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[97367,["/makistyling/_next/static/chunks/1hx57nrft2p-s.js","/makistyling/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+:HL["/makistyling/photos/work-032.jpg","image"]
+0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"wrap-s scontact","children":[["$","h1",null,{"className":"eyebrow","children":"Contact"}],["$","p",null,{"className":"scontact-lede","children":"For bookings, availability and estimates, please get in touch."}],["$","div",null,{"className":"scontact-lines","children":[["$","a",null,{"className":"scontact-mail","href":"mailto:maki@seven-bros.com","children":"maki@seven-bros.com"}],["$","a",null,{"className":"scontact-mail","href":"tel:+12138048899","children":"213-804-8899"}]]}],["$","div",null,{"className":"scontact-img","children":["$","img",null,{"src":"/makistyling/photos/work-032.jpg","alt":""}]}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Vhf8ocqZ0YYB168APGrDz"}
+4:null

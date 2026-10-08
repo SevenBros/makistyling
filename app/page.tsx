@@ -21,7 +21,6 @@ export default function Home() {
       <section className="wrap-s" id="work">
         <div className="sec-head">
           <h2>Selected Work</h2>
-          <p>{photos.length} works</p>
         </div>
         <Gallery items={photos} label="Product Styling" uniform />
       </section>

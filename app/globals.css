@@ -668,3 +668,7 @@ body { font-weight: 300; letter-spacing: -0.003em; }
 .feature .hero-slides img { transform: none; transition: opacity 1.4s ease; }
 .feature .hero-slides img.on { transform: none; }
 @media (max-width: 700px) { .feature { aspect-ratio: 1 / 1; } }
+
+.scontact .eyebrow { margin-bottom: 0; }
+.scontact-lines { display: flex; flex-direction: column; align-items: center; gap: 22px; }
+.scontact-lines .scontact-mail { letter-spacing: 0.06em; }

@@ -7,10 +7,12 @@ export const metadata: Metadata = { title: "Contact" };
 export default function Page() {
   return (
     <div className="wrap-s scontact">
-      <p className="eyebrow">Contact</p>
-      <h1 className="scontact-title">Let&rsquo;s create together.</h1>
+      <h1 className="eyebrow">Contact</h1>
       <p className="scontact-lede">For bookings, availability and estimates, please e-mail me.</p>
-      <a className="scontact-mail" href={`mailto:${site.email}`}>{site.email}</a>
+      <div className="scontact-lines">
+        <a className="scontact-mail" href={`mailto:${site.email}`}>{site.email}</a>
+        <a className="scontact-mail" href={`tel:+1${site.phone.replace(/-/g, "")}`}>{site.phone}</a>
+      </div>
       <div className="scontact-img">
         <img src={photos[31].src} alt="" />
       </div>

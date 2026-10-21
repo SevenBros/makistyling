@@ -3,7 +3,7 @@ export const site = {
   role: "Product Styling",
   email: "maki@seven-bros.com",
   phone: "213-804-8899",
-  url: "https://makistyling.com",
+  url: "https://www.makistyling.com",
 };
 
 export const nav = [

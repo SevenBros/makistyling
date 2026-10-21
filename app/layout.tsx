@@ -13,9 +13,10 @@ export const metadata: Metadata = {
     description: "Product styling for cosmetics, fragrance, skincare and lifestyle brands.",
     url: site.url,
     siteName: `${site.name} ${site.role}`,
-    images: ["/photos/work-013.jpg"],
+    images: [{ url: "/og.jpg", width: 1200, height: 630 }],
     type: "website",
   },
+  twitter: { card: "summary_large_image", images: ["/og.jpg"] },
 };
 
 export const viewport: Viewport = { themeColor: "#ffffff" };
